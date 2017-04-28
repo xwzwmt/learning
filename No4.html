@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>高压开关柜</title>
+	<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+	<style>
+	#nav1{
+		font-size: 40px;
+		font-family: "微软雅黑";
+		height: 30%;
+	}
+	.b{
+		height: 50px;
+        border: 1px solid #ccc;
+        background-color: #DDDDDD;
+	}
+	.c{
+		height: 50px;
+        border: 1px solid #ccc;
+        background-color: #eee;
+	}
+	#btn{
+		float: right;
+		padding-bottom: 20px;
+		margin-right: 120px;
+	}
+	#fm{
+		font-size: 20px;
+		font-family: "微软雅黑";
+	}
+	form label{
+		font-size: 30px;
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+	<div id="nav1">高压开关柜</div>
+	<HR style="border:1 dashed #987cb9" width="80%" color=#987cb9 SIZE=1>
+	<div id="op">
+		<select  class="form-control ">
+			<option >请选择您的开关</option>
+			<option >HXGN15-12</option>
+			<option >KYN28-12</option>			
+		</select>
+	</div>
+	<br>
+	<br>
+	<div>
+		<form >
+		<div class="form-group">
+		<label for="低压开关数量">高压开关数量</label>
+		<input type="password" class="form-control " placeholder="请输入您的高压开关数量，例如：1">		
+		</div>
+	</form>
+	</div>
+	<br>
+	<br>
+	<div id="fm">
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">类型</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">母线额定电流/A</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">额定电压/V</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">额定频率/HZ</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">高压</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">4000</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">12</div> 
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">50</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">防护等级</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">用途</div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 b">结构形式</div>
+		
+	</div>
+	<div class="row">
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">   </div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">    </div>
+		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 c">移开式</div>
+		
+	</div>
+	</div>
+	<br>
+	<br>
+	<HR style="border:1 dashed #987cb9" width="80%" color=#987cb9 SIZE=1>
+	<div id="btn">
+	<button class="btn btn-success btn-lg">完成</button>
+	<button class="btn btn-danger btn-lg">取消</button>
+	</div>
+	</div>
+
+	<script src="jquery.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
